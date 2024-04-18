@@ -1,7 +1,44 @@
 #titulo {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     text-align: center;
+  }
+
+
+#header {
+    display: flex; /* Utiliza un modelo de caja flexible */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos del encabezado */
+    align-items: center; /* Alinea los elementos verticalmente */
+    border-bottom: 2px solid #333; /* Agrega un borde inferior de 2px sólido */
+    padding-bottom: 10px; /* Agrega relleno en la parte inferior del encabezado */
+}
+#parrafo {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    
 }
 
-#parrafo {
-    text-align: center;
+#benja {
+    margin-bottom: 30px;
+    
+    
+}
+
+#imghombre {
+    display: flex; 
+    justify-content: left;
+
+}
+
+#parrafoB {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+#contenedor {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: #fffed1; 
+    padding: 20px;
 }
