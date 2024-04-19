@@ -11,9 +11,9 @@
     font-size: 1.45em;
     text-align: center;
 }
-.parrafo {
+#parrafo {
     font-family: "Open Sans", sans-serif;
-    display: flex; 
+  
     justify-content: space-between; 
     margin-bottom: 20px;
     align-items: center; 
@@ -48,4 +48,16 @@ img {
     margin-right: 20px;
     display: flex; 
     justify-content: space-between; 
+}
+
+
+
+.footer {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(107, 39, 141);
+    font-size: 1.45em;
+    text-align: center;
+    background-color: rgba(188, 194, 192, 0.808);
 }
